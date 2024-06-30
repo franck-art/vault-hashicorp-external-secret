@@ -1,0 +1,2 @@
+# Use external-secrets to automatically retrieve from vault server
+__________________________________________________________________
