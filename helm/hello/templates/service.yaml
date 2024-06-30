@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "hello.name" . }}
+  namespace: {{ include "hello.name" . }}
+  labels:
+    {{- include "hello.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: 3000
+      protocol: TCP
+      name: hello
+  selector:
+    {{- include "hello.selectorLabels" . | nindent 4 }}
