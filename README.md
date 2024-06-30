@@ -1,2 +1,2 @@
-# Use external-secrets to automatically retrieve from vault server instead of using vault-agent-injector
-_________________________________________________________________________________________________________
+# Use external-secrets to automatically retrieve secrets from vault server instead of using vault-agent-injector
+________________________________________________________________________________________________________________
