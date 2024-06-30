@@ -8,7 +8,7 @@ image:
   repository: europe-west1-docker.pkg.dev/poc-franck/hello-tekton-image/tekton-hello
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "test-external-secret-vault"
 
 imagePullSecrets: []
 nameOverride: ""

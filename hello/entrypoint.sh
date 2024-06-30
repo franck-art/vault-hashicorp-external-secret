@@ -4,6 +4,7 @@ set -e
 
 echo "The app is starting ..."
 
-source /vault/secrets/config 
+# Just used for vault
+#source /vault/secrets/config 
 
 yarn run start
